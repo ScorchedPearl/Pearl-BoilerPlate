@@ -1,0 +1,23 @@
+{
+  "name": "@workspace/prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc -p . \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.1.0"
+  },
+  "exports": {
+    "./src/index": "./src/index.ts"
+  },
+  "type": "module"
+}
