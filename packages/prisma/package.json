@@ -14,10 +14,12 @@
     "@prisma/client": "^6.1.0"
   },
   "devDependencies": {
+    "@types/node": "^22.10.3",
     "prisma": "^6.1.0"
   },
   "exports": {
-    "./src/index": "./src/index.ts"
+    "./src/index": "./src/index.ts",
+    "./build/index": "./build/index.cjs"
   },
   "type": "module"
 }
